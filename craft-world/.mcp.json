@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "craft": {
+      "type": "http",
+      "url": "https://api.craftrpgs.com/mcp"
+    }
+  }
+}

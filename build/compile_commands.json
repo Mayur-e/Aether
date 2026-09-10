@@ -1,0 +1,212 @@
+[
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/SEM-5/CGG/Project/src/glad/include -g -o CMakeFiles\\glad.dir\\src\\glad\\src\\gl.c.obj -c D:\\SEM-5\\CGG\\Project\\src\\glad\\src\\gl.c",
+  "file": "D:/SEM-5/CGG/Project/src/glad/src/gl.c",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/glad.dir/src/glad/src/gl.c.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Shader.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Shader.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Shader.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Shader.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Camera.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Camera.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Camera.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Camera.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\GameCamera.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\GameCamera.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/GameCamera.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/GameCamera.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Mesh.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Mesh.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Mesh.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Mesh.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Renderer.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Renderer.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Renderer.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Renderer.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\LineRenderer.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\LineRenderer.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/LineRenderer.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/LineRenderer.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Texture.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Texture.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Texture.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Texture.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\TextRenderer.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\TextRenderer.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/TextRenderer.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/TextRenderer.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\core\\Game.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\core\\Game.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/core/Game.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/core/Game.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\core\\ResourceManager.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\core\\ResourceManager.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/core/ResourceManager.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/core/ResourceManager.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\InputManager.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\InputManager.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/InputManager.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/InputManager.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\Scene.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\Scene.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/Scene.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/Scene.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\Level.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\Level.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/Level.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/Level.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\LevelManager.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\LevelManager.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/LevelManager.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/LevelManager.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\Player.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\Player.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/Player.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/Player.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\PuzzleObjects.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\PuzzleObjects.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/PuzzleObjects.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/PuzzleObjects.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\GravitySystem.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\GravitySystem.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/GravitySystem.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/GravitySystem.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\Physics2D.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\Physics2D.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/Physics2D.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/Physics2D.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\game\\Enemy.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\game\\Enemy.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/game/Enemy.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/game/Enemy.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\physics\\PhysicsWorld.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\physics\\PhysicsWorld.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/physics/PhysicsWorld.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/physics/PhysicsWorld.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\AETHER.dir\\src\\main.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\main.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/main.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/AETHER.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\test_libs.dir\\src\\test_libs.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\test_libs.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/test_libs.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/test_libs.dir/src/test_libs.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_dda.dir\\assignments\\dda.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\dda.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/dda.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_dda.dir/assignments/dda.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_bresenham.dir\\assignments\\bresenham.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\bresenham.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/bresenham.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_bresenham.dir/assignments/bresenham.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_bresenham_circle.dir\\assignments\\bresenham_circle.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\bresenham_circle.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/bresenham_circle.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_bresenham_circle.dir/assignments/bresenham_circle.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_midpoint_circle.dir\\assignments\\midpoint_circle.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\midpoint_circle.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/midpoint_circle.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_midpoint_circle.dir/assignments/midpoint_circle.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_cohen_sutherland.dir\\assignments\\cohen_sutherland.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\cohen_sutherland.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/cohen_sutherland.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_cohen_sutherland.dir/assignments/cohen_sutherland.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_liang_barsky.dir\\assignments\\liang_barsky.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\liang_barsky.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/liang_barsky.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_liang_barsky.dir/assignments/liang_barsky.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_scanline_fill.dir\\assignments\\scanline_fill.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\scanline_fill.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/scanline_fill.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_scanline_fill.dir/assignments/scanline_fill.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_flood_fill.dir\\assignments\\flood_fill.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\flood_fill.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/flood_fill.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_flood_fill.dir/assignments/flood_fill.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_bezier_curve.dir\\assignments\\bezier_curve.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\bezier_curve.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/bezier_curve.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_bezier_curve.dir/assignments/bezier_curve.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_transformations2d.dir\\assignments\\transformations_2d.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\transformations_2d.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/transformations_2d.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_transformations2d.dir/assignments/transformations_2d.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_transformations3d.dir\\assignments\\transformations_3d.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\transformations_3d.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/transformations_3d.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_transformations3d.dir/assignments/transformations_3d.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/SEM-5/CGG/Project/src/glad/include -g -std=gnu++17 -o CMakeFiles\\assign_transform.dir\\assignments\\transform.cpp.obj -c D:\\SEM-5\\CGG\\Project\\assignments\\transform.cpp",
+  "file": "D:/SEM-5/CGG/Project/assignments/transform.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/assign_transform.dir/assignments/transform.cpp.obj"
+}
+]

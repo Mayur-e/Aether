@@ -1,0 +1,60 @@
+NAME Level_7:_Aether_Core
+SPAWN 0 3
+CHECKPOINT 0 3
+
+# The final level. Four arms radiate from the centre (0,0).
+# Gravity Fields on each arm. All 4 directions simultaneously.
+
+# === Central platform ===
+WALL -1 -1  2 2  0.30 0.10 0.40    # Core platform (violet)
+
+# === Arm A (right arm) ===
+WALL  5  0  20  2  0.12 0.12 0.18
+WALL 25  0   6  2  0.12 0.12 0.18  # end of right arm
+
+# === Arm B (left arm) ===
+WALL -25  0  20  2  0.12 0.12 0.18
+WALL -31  0   6  2  0.12 0.12 0.18
+
+# === Arm C (up arm) ===
+WALL  0   5   2 20  0.12 0.12 0.18
+WALL  0  25   2  6  0.12 0.12 0.18
+
+# === Arm D (down arm) ===
+WALL  0 -25   2 20  0.12 0.12 0.18
+WALL  0 -31   2  6  0.12 0.12 0.18
+
+# === Gravity Fields covering each arm ===
+FIELD RIGHT 1.0   15  0  20 4
+FIELD LEFT  1.0  -15  0  20 4
+FIELD UP    1.0    0 15   4 20
+FIELD DOWN  1.0    0 -15  4 20
+
+# === Gravity Switches (one per arm) ===
+SWITCH RIGHT   4  1
+SWITCH LEFT  -24  1
+SWITCH UP      1  4
+SWITCH DOWN    1 -24
+
+# === Conduit Valves (one per arm — all 4 needed) ===
+VALVE  armA  27  1
+VALVE  armB -29  1
+VALVE  armC   1 27
+VALVE  armD   1 -29
+
+# === Goal (unlocks only after all 4 valves) ===
+DOOR  armA  0 -2  0 -10  2 2
+GOAL  0 -3
+
+# === Sentinels ===
+SENTINEL  7 1  23 1  5.0
+SENTINEL -7 1 -23 1  5.0
+
+# === Wraith enemies orbiting the core ===
+WRAITH  0  0  10  0.8
+WRAITH  0  0  16  -1.0
+WRAITH  0  0   6   2.0
+
+# Tutorial text
+TEXT  2 2 Activate all 4 Conduit Valves to awaken the Core!
+TEXT  5 2 Walk into the RIGHT field to reach the right arm

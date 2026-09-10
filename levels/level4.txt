@@ -1,0 +1,56 @@
+NAME Level_4:_Relay_Chambers
+SPAWN 1 2
+CHECKPOINT 1 2
+
+# Three connected chambers. Conduit valves unlock the goal door.
+# Signal routing: Valve A + Valve B + Valve C -> goal door opens
+
+# === Chamber 1: The Initiator [X 0..16, Y 0..10] ===
+# Gravity: DOWN
+WALL  0  0  16  1  0.03 0.05 0.08    # floor
+WALL  0 10  16  1  0.03 0.05 0.08    # ceiling
+WALL  0  0   1 10  0.03 0.05 0.08    # left wall
+SWITCH UP   8 2
+VALVE  valveA  8 9
+
+# === Chamber 2: The Intermediary [X 16..32, Y 0..18] ===
+# Gravity starts LEFT on entry (player must arrive through a left-gravity switch)
+WALL 16  0   1 18  0.03 0.05 0.08    # left wall (floor under LEFT gravity)
+WALL 32  0   1 18  0.03 0.05 0.08    # right wall
+WALL 16  0  16  1  0.03 0.05 0.08    # floor
+WALL 16 17  16  1  0.03 0.05 0.08    # ceiling
+# floating platforms
+WALL 16  5   3  1  0.08 0.12 0.20
+WALL 16 11   3  1  0.08 0.12 0.20
+# door between chamber 1 and 2
+DOOR  ch2door  15 0  15 7  1 7
+VALVE  valveA_link  8 9     # same valve signals ch2door
+# Actually link door to valveA signal
+DOOR  valveA  15 0  15 7  1 7
+CUBE  16 3  2.0
+PLATE valveB_plate  31 10
+SWITCH RIGHT  20 11
+VALVE  valveB  31 17
+CHECKPOINT 17 2
+
+# === Chamber 3: The Payoff [X 32..48, Y 0..14] ===
+WALL 32  0  16  1  0.03 0.05 0.08    # floor
+WALL 32 14  16  1  0.03 0.05 0.08    # ceiling
+WALL 48  0   1 14  0.03 0.05 0.08    # right wall
+# Chamber 2 -> 3 door
+DOOR  valveB  31 0  31 9  1 7
+SWITCH UP   35 2
+SWITCH LEFT  48 14
+VALVE  valveC  33 14
+# Goal opens when all three valves active — wire to valveC (last to activate)
+DOOR  valveC  47 0  47 13  1 14
+GOAL  47 7
+CHECKPOINT 33 2
+
+# Enemies
+WRAITH  24 9  5 1.5    # fracture wraith drifts in chamber 2
+
+# Tutorial text
+TEXT 2 3  Activate the Conduit Valve at the top!
+TEXT 17 3 Navigate with LEFT gravity — the wall is your floor
+TEXT 33 3 All 3 valves must glow to open the exit

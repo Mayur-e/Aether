@@ -1,0 +1,176 @@
+{
+  "syncedAt": "2026-09-08T22:07:54.993Z",
+  "folders": [
+    {
+      "path": "/enemies",
+      "folderId": "01a074db-73fe-7128-8ed5-9766eb99f81c"
+    },
+    {
+      "path": "/locations",
+      "folderId": "01a074db-73fe-76d8-a978-00ea4f2a0674"
+    },
+    {
+      "path": "/mechanics",
+      "folderId": "01a074db-73ff-7a14-9821-3f295adce24a"
+    },
+    {
+      "path": "/characters",
+      "folderId": "01a074db-73fc-7494-b3d2-7cf40c4b2f90"
+    }
+  ],
+  "files": [
+    {
+      "path": "/characters/aria.character.md",
+      "fileId": "01a074db-742d-771c-9462-d30f11553d0c",
+      "referenceId": "01a074db-72c7-73e8-bf41-f89a1a15ff0e",
+      "fileType": "character",
+      "baseVersionId": "01a081d9-fb70-738c-904a-2cace6d60816",
+      "baseHash": "68faf159-f428-258b-8c88-67fba59c1dbc",
+      "source": "project"
+    },
+    {
+      "path": "/characters/kael.character.md",
+      "fileId": "01a074db-7431-76b4-a60e-2c082efffebf",
+      "referenceId": "01a074db-72c7-73e8-bf41-ff1287c0e636",
+      "fileType": "character",
+      "baseVersionId": "01a081d9-f038-7550-a1dc-86ffbc576325",
+      "baseHash": "f8c84aa3-e913-4c0d-ee74-2e3c1165e67a",
+      "source": "project"
+    },
+    {
+      "path": "/enemies/fracture-wraith.enemy.md",
+      "fileId": "01a074db-7432-7b38-847e-c88d38951478",
+      "referenceId": "01a074db-72c7-73e8-bf42-03ac7347f8fa",
+      "fileType": "enemy",
+      "baseVersionId": "01a081da-0517-780c-b457-a6a7d8a33d09",
+      "baseHash": "1aa1ee6e-ea44-c1b6-3cf9-7e849dcab56b",
+      "source": "project"
+    },
+    {
+      "path": "/enemies/sentinel.enemy.md",
+      "fileId": "01a074db-7432-7f28-bd9e-3a033cfb8b4c",
+      "referenceId": "01a074db-72c7-73e8-bf42-040fa3536119",
+      "fileType": "enemy",
+      "baseVersionId": "01a081d9-ea86-7c30-b1de-c1b252d8179a",
+      "baseHash": "1da525da-2f42-8681-7caf-389d186e105d",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level1-arrival-hall.location.md",
+      "fileId": "01a074db-7432-7318-897d-796c4ad096a7",
+      "referenceId": "01a074db-72c7-73e8-bf42-09ce4be8e202",
+      "fileType": "location",
+      "baseVersionId": "01a081d9-fd79-78c0-92e8-fcb05ec00e16",
+      "baseHash": "320d6e00-db0b-4376-4061-a8b3f7c9b4e8",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level2-vertical-maze.location.md",
+      "fileId": "01a074db-7432-74a4-8b89-fa854d1f8329",
+      "referenceId": "01a074db-72c7-73e8-bf42-0c4ae241fcda",
+      "fileType": "location",
+      "baseVersionId": "01a081da-172d-76fc-92a0-749cf49d41ac",
+      "baseHash": "d3bbc550-d353-333f-2333-cc679ab69fd1",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level3-storage-vaults.location.md",
+      "fileId": "01a074db-7432-7760-b86d-fa1488095be7",
+      "referenceId": "01a074db-72c7-73e8-bf42-12bae44d7b27",
+      "fileType": "location",
+      "baseVersionId": "01a081da-0f49-7ab4-8d72-34cf73df8186",
+      "baseHash": "bd267155-4bf8-6a83-fc48-a671008982d1",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level4-relay-chambers.location.md",
+      "fileId": "01a074db-7433-7438-b5eb-d405c9455f98",
+      "referenceId": "01a074db-72c7-73e8-bf42-15cb284736c8",
+      "fileType": "location",
+      "baseVersionId": "01a081da-0785-7cf4-8122-2b357b7e9b3c",
+      "baseHash": "7ddbbf24-7558-6c70-10a9-2dc36d95afb1",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level5-zero-field.location.md",
+      "fileId": "01a074db-7433-75d4-b913-638ca7ea8aae",
+      "referenceId": "01a074db-72c8-723d-ba1a-9c800577b2e6",
+      "fileType": "location",
+      "baseVersionId": "01a081da-16ef-7334-822d-d69bf2fdff7e",
+      "baseHash": "9773b225-d2c3-b3ea-2eb6-d8ffc8751b33",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level6-machinery-ring.location.md",
+      "fileId": "01a074db-7434-752c-b6ad-83160fc9c5fa",
+      "referenceId": "01a074db-72c8-723d-ba1a-a2d9b62b92e5",
+      "fileType": "location",
+      "baseVersionId": "01a081da-0d07-79e4-819b-76737e226cbd",
+      "baseHash": "520b35d2-830e-ce61-64b6-4a7cb1d39319",
+      "source": "project"
+    },
+    {
+      "path": "/locations/level7-aether-core.location.md",
+      "fileId": "01a074db-7434-76d4-9d47-5ee9788d3ce5",
+      "referenceId": "01a074db-72c8-723d-ba1a-a486f7906672",
+      "fileType": "location",
+      "baseVersionId": "01a081ce-bbe8-7c98-98ab-cd1c5dc9ae5f",
+      "baseHash": "80d8e2e7-7bcb-9936-6a75-8441dbd5d7ac",
+      "source": "project"
+    },
+    {
+      "path": "/mechanics/gravity-system.mechanic.md",
+      "fileId": "01a074db-7435-7694-b778-2a7a28f4d8b9",
+      "referenceId": "01a074db-72c8-723d-ba1a-a9ac70d8fb35",
+      "fileType": "mechanic",
+      "baseVersionId": "01a081da-0a9e-7444-a840-c468cd08b3fd",
+      "baseHash": "87a80ba0-e035-8cae-ada0-bcfc695614a4",
+      "source": "project"
+    },
+    {
+      "path": "/mechanics/physics-system.mechanic.md",
+      "fileId": "01a074db-7436-7868-8a03-13c1fc3d2fb4",
+      "referenceId": "01a074db-72c8-723d-ba1a-ae62295202c6",
+      "fileType": "mechanic",
+      "baseVersionId": "01a081da-235e-7808-b333-76b67075b6a7",
+      "baseHash": "413e3c0b-0cc6-61ee-9f8d-4f52901ab1b4",
+      "source": "project"
+    },
+    {
+      "path": "/mechanics/puzzle-objects.mechanic.md",
+      "fileId": "01a074db-7436-7bb0-9d8e-cf7797e4f734",
+      "referenceId": "01a074db-72c8-723d-ba1a-b32481374235",
+      "fileType": "mechanic",
+      "baseVersionId": "01a081da-2135-79b0-883b-7087c4093b98",
+      "baseHash": "bd5343d7-4df3-c256-f918-0f14a7d2be86",
+      "source": "project"
+    }
+  ],
+  "fileTypes": [
+    {
+      "slug": "character",
+      "fileTypeId": "01a074db-7404-76c8-b8be-b2bfaf0fc10c",
+      "schemaHash": "394a0b59-94ae-e355-fdbd-ae4252ed0d82",
+      "contentHash": "a5dd3ad9-6015-0762-e482-8e780a0847f4"
+    },
+    {
+      "slug": "enemy",
+      "fileTypeId": "01a074db-740d-76d4-8132-bf0e85d017bd",
+      "schemaHash": "394a0b59-94ae-e355-fdbd-ae4252ed0d82",
+      "contentHash": "a5dd3ad9-6015-0762-e482-8e780a0847f4"
+    },
+    {
+      "slug": "location",
+      "fileTypeId": "01a074db-7417-7844-9f7d-dc3c8db6324c",
+      "schemaHash": "394a0b59-94ae-e355-fdbd-ae4252ed0d82",
+      "contentHash": "a5dd3ad9-6015-0762-e482-8e780a0847f4"
+    },
+    {
+      "slug": "mechanic",
+      "fileTypeId": "01a074db-741d-742c-9ec6-df9b21d789d8",
+      "schemaHash": "394a0b59-94ae-e355-fdbd-ae4252ed0d82",
+      "contentHash": "a5dd3ad9-6015-0762-e482-8e780a0847f4"
+    }
+  ],
+  "projectSettingsHash": "9c5a981e-948d-3915-0552-066ca51067ab"
+}

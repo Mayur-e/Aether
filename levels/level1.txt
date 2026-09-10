@@ -1,0 +1,28 @@
+NAME Level_1:_Arrival_Hall
+SPAWN 1 2
+CHECKPOINT 1 2
+
+# World bounds: X [0,32], Y [0,12]
+# Gravity start: DOWN
+
+# --- Platforms ---
+WALL  0  0  32  1  0.10 0.10 0.13    # full-length floor
+WALL 10  3   6  1  0.20 0.20 0.25    # raised ledge
+WALL 18  6   6  1  0.20 0.20 0.25    # higher ledge
+WALL 22 10  10  1  0.20 0.20 0.25    # ceiling section
+
+# --- Level bounds (invisible side walls) ---
+WALL -1  6   2  14  0.10 0.10 0.13
+WALL 33  6   2  14  0.10 0.10 0.13
+
+# --- Gravity Switches ---
+SWITCH UP    14 4.5
+SWITCH DOWN  24 11.5
+
+# --- Goal (exit arch) ---
+GOAL 30 1.9
+
+# --- Tutorial text ---
+TEXT  1  3  Use A/D to move, Space to jump
+TEXT 10  5  Walk into the pillar to flip Gravity!
+TEXT 22 12  Walk into the glowing arch to exit

@@ -1,0 +1,9 @@
+{
+  "name": "AETHER — Gravity",
+  "description": "World bible for AETHER: a 2.5D gravity-manipulation puzzle-platformer. Documents player characters, level locations, game mechanics, enemy types, and narrative lore for the C++ OpenGL game.",
+  "settings": {
+    "autoImageGeneration": true,
+    "isClonable": false,
+    "hideHeroTitle": false
+  }
+}

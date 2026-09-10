@@ -1,0 +1,41 @@
+NAME Level_5:_Zero_Field
+SPAWN 1 3
+CHECKPOINT 1 3
+
+# World bounds: X [0,50], Y [0,30]
+# Global gravity DOWN at 30% strength
+GRAVITY_SCALE 0.3
+
+# --- Floating Islands ---
+WALL  0  2   8  1  0.10 0.08 0.15    # Island A (start)
+WALL 14  8   6  1  0.10 0.08 0.15    # Island B
+WALL 28 15   6  1  0.10 0.08 0.15    # Island C
+WALL 40  5   8  1  0.10 0.08 0.15    # Island D (goal)
+
+# Level bounds
+WALL -1 15   2 30  0.06 0.06 0.10
+WALL 51 15   2 30  0.06 0.06 0.10
+WALL  0 -1  50  2  0.06 0.06 0.10
+WALL  0 31  50  2  0.06 0.06 0.10
+
+# --- Gravity Fields ---
+# Format: FIELD <dir> <strength> <cx> <cy> <w> <h>
+FIELD UP    0.8  14  6   8 12    # Field 1: pulls UP
+FIELD RIGHT 0.6  27 15  10 10   # Field 2: pulls RIGHT
+FIELD DOWN  1.5  42 25  12 10   # Field 3: strong DOWN (crushing)
+
+# --- Floating Crate ---
+CUBE  12  5  2.0
+
+# --- Pressure Plate + Goal on Island D ---
+PLATE goalPlate  46 6
+DOOR  goalPlate  48 0  48 10  1 10
+GOAL  48 6
+
+# --- Checkpoint at Island B ---
+CHECKPOINT 16 10
+
+# --- Tutorial text ---
+TEXT 1 4  Gravity is at 30%! Jumps are floaty!
+TEXT 14 10 The cyan zone reverses gravity!
+TEXT 40 7  Push the Crate onto the plate to open the exit
