@@ -45,6 +45,8 @@ add_library(aether_engine STATIC
     src/graphics/Mesh.cpp
     src/graphics/Renderer.cpp
     src/graphics/LineRenderer.cpp
+    src/graphics/UIRenderer.cpp
+    src/graphics/Model.cpp
     src/graphics/Texture.cpp
     src/graphics/TextRenderer.cpp
     src/core/Game.cpp

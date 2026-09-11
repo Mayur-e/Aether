@@ -43,6 +43,18 @@
 },
 {
   "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\UIRenderer.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\UIRenderer.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/UIRenderer.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/UIRenderer.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Model.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Model.cpp",
+  "file": "D:/SEM-5/CGG/Project/src/graphics/Model.cpp",
+  "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Model.cpp.obj"
+},
+{
+  "directory": "D:/SEM-5/CGG/Project/build",
   "command": "D:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2 -g -std=gnu++17 -o CMakeFiles\\aether_engine.dir\\src\\graphics\\Texture.cpp.obj -c D:\\SEM-5\\CGG\\Project\\src\\graphics\\Texture.cpp",
   "file": "D:/SEM-5/CGG/Project/src/graphics/Texture.cpp",
   "output": "D:/SEM-5/CGG/Project/build/CMakeFiles/aether_engine.dir/src/graphics/Texture.cpp.obj"

@@ -22,20 +22,21 @@ void Player::update(float dt, Physics2D& phys, GravitySystem& grav) {
     
     Body2D& body = phys.body(bodyId);
     
-    // 1. Gravity Switching Logic
-    if (InputManager::isKeyPressed(GLFW_KEY_DOWN))  grav.request(GravityDir::DOWN);
-    if (InputManager::isKeyPressed(GLFW_KEY_UP))    grav.request(GravityDir::UP);
-    if (InputManager::isKeyPressed(GLFW_KEY_LEFT))  grav.request(GravityDir::LEFT);
-    if (InputManager::isKeyPressed(GLFW_KEY_RIGHT)) grav.request(GravityDir::RIGHT);
+    // 1. Gravity Switching — WASD per REBUILD.md §6
+    //    Edge-triggered (isKeyPressed) so holding doesn't spam switches
+    if (InputManager::isKeyPressed(GLFW_KEY_W)) grav.request(GravityDir::UP);
+    if (InputManager::isKeyPressed(GLFW_KEY_S)) grav.request(GravityDir::DOWN);
+    if (InputManager::isKeyPressed(GLFW_KEY_A)) grav.request(GravityDir::LEFT);
+    if (InputManager::isKeyPressed(GLFW_KEY_D)) grav.request(GravityDir::RIGHT);
     
     // 2. Movement Logic (relative to current gravity)
     glm::vec2 upVec = grav.upVec();
     glm::vec2 rightVec = { upVec.y, -upVec.x }; // Perpendicular right
     
-    // Input axis (-1 to 1)
+    // 2. Movement — Arrow Left / Right per REBUILD.md §6
     float moveDir = 0.0f;
-    if (InputManager::isKeyHeld(GLFW_KEY_A)) moveDir -= 1.0f;
-    if (InputManager::isKeyHeld(GLFW_KEY_D)) moveDir += 1.0f;
+    if (InputManager::isKeyHeld(GLFW_KEY_LEFT))  moveDir -= 1.0f;
+    if (InputManager::isKeyHeld(GLFW_KEY_RIGHT)) moveDir += 1.0f;
     
     // Project current velocity onto horizontal (rightVec) and vertical (upVec) axes
     float vHorizontal = glm::dot(body.vel, rightVec);

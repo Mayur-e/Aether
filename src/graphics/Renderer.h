@@ -67,6 +67,9 @@ public:
     // Convenience: clear the colour + depth buffer
     static void clear(float r = 0.08f, float g = 0.08f, float b = 0.12f, float a = 1.0f);
 
+    // Expose shader ID so external model renderers can reuse the lit shader
+    unsigned int shaderProgramId() const;
+
 private:
     Shader      shader_;
     glm::mat4   view_;

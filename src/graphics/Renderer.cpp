@@ -70,3 +70,9 @@ void Renderer::end()
 {
     // Reserved for future post-processing pass
 }
+
+// -----------------------------------------------------------------------
+unsigned int Renderer::shaderProgramId() const
+{
+    return shader_.id;
+}

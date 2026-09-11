@@ -145,6 +145,26 @@ build CMakeFiles/aether_engine.dir/src/graphics/LineRenderer.cpp.obj: CXX_COMPIL
   OBJECT_FILE_DIR = CMakeFiles\aether_engine.dir\src\graphics
   TARGET_SUPPORT_DIR = CMakeFiles\aether_engine.dir
 
+build CMakeFiles/aether_engine.dir/src/graphics/UIRenderer.cpp.obj: CXX_COMPILER__aether_engine_unscanned_Debug D$:/SEM-5/CGG/Project/src/graphics/UIRenderer.cpp || cmake_object_order_depends_target_aether_engine
+  CONFIG = Debug
+  DEFINES = -DGLFW_DLL
+  DEP_FILE = CMakeFiles\aether_engine.dir\src\graphics\UIRenderer.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2
+  OBJECT_DIR = CMakeFiles\aether_engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\aether_engine.dir\src\graphics
+  TARGET_SUPPORT_DIR = CMakeFiles\aether_engine.dir
+
+build CMakeFiles/aether_engine.dir/src/graphics/Model.cpp.obj: CXX_COMPILER__aether_engine_unscanned_Debug D$:/SEM-5/CGG/Project/src/graphics/Model.cpp || cmake_object_order_depends_target_aether_engine
+  CONFIG = Debug
+  DEFINES = -DGLFW_DLL
+  DEP_FILE = CMakeFiles\aether_engine.dir\src\graphics\Model.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -ID:/SEM-5/CGG/Project/src -ID:/msys64/ucrt64/include/stb -ID:/SEM-5/CGG/Project/src/glad/include -isystem D:/msys64/ucrt64/include/freetype2
+  OBJECT_DIR = CMakeFiles\aether_engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\aether_engine.dir\src\graphics
+  TARGET_SUPPORT_DIR = CMakeFiles\aether_engine.dir
+
 build CMakeFiles/aether_engine.dir/src/graphics/Texture.cpp.obj: CXX_COMPILER__aether_engine_unscanned_Debug D$:/SEM-5/CGG/Project/src/graphics/Texture.cpp || cmake_object_order_depends_target_aether_engine
   CONFIG = Debug
   DEFINES = -DGLFW_DLL
@@ -293,7 +313,7 @@ build CMakeFiles/aether_engine.dir/src/physics/PhysicsWorld.cpp.obj: CXX_COMPILE
 #############################################
 # Link the static library libaether_engine.a
 
-build libaether_engine.a: CXX_STATIC_LIBRARY_LINKER__aether_engine_Debug CMakeFiles/aether_engine.dir/src/graphics/Shader.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Camera.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/GameCamera.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Mesh.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Renderer.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/LineRenderer.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Texture.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/TextRenderer.cpp.obj CMakeFiles/aether_engine.dir/src/core/Game.cpp.obj CMakeFiles/aether_engine.dir/src/core/ResourceManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/InputManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/Scene.cpp.obj CMakeFiles/aether_engine.dir/src/game/Level.cpp.obj CMakeFiles/aether_engine.dir/src/game/LevelManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/Player.cpp.obj CMakeFiles/aether_engine.dir/src/game/PuzzleObjects.cpp.obj CMakeFiles/aether_engine.dir/src/game/GravitySystem.cpp.obj CMakeFiles/aether_engine.dir/src/game/Physics2D.cpp.obj CMakeFiles/aether_engine.dir/src/game/Enemy.cpp.obj CMakeFiles/aether_engine.dir/src/physics/PhysicsWorld.cpp.obj || libglad.a
+build libaether_engine.a: CXX_STATIC_LIBRARY_LINKER__aether_engine_Debug CMakeFiles/aether_engine.dir/src/graphics/Shader.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Camera.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/GameCamera.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Mesh.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Renderer.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/LineRenderer.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/UIRenderer.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Model.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/Texture.cpp.obj CMakeFiles/aether_engine.dir/src/graphics/TextRenderer.cpp.obj CMakeFiles/aether_engine.dir/src/core/Game.cpp.obj CMakeFiles/aether_engine.dir/src/core/ResourceManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/InputManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/Scene.cpp.obj CMakeFiles/aether_engine.dir/src/game/Level.cpp.obj CMakeFiles/aether_engine.dir/src/game/LevelManager.cpp.obj CMakeFiles/aether_engine.dir/src/game/Player.cpp.obj CMakeFiles/aether_engine.dir/src/game/PuzzleObjects.cpp.obj CMakeFiles/aether_engine.dir/src/game/GravitySystem.cpp.obj CMakeFiles/aether_engine.dir/src/game/Physics2D.cpp.obj CMakeFiles/aether_engine.dir/src/game/Enemy.cpp.obj CMakeFiles/aether_engine.dir/src/physics/PhysicsWorld.cpp.obj || libglad.a
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\aether_engine.dir
